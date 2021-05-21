@@ -359,7 +359,7 @@ namespace POP {
 
     // operator overloads
     CGFloat &operator[](size_t i) const {
-      NSCAssert(size() > i, @"unexpected vector size:%lu", (unsigned long)size());
+      NSCAssert1(size() > i, @"unexpected vector size:%lu", (unsigned long)size());
       return _values[i];
     }
 

@@ -7,7 +7,8 @@
  of patent rights can be found in the PATENTS file in the same directory.
  */
 
-#import <pop/POPPropertyAnimation.h>
+//#import <pop/POPPropertyAnimation.h>
+#import "POPPropertyAnimation.h"
 
 /**
  @abstract A concrete spring animation class.

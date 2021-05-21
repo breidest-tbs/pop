@@ -12,7 +12,8 @@
 
 #import <QuartzCore/CATransaction.h>
 
-#import <pop/POPDefines.h>
+//#import <pop/POPDefines.h>
+#import "POPDefines.h"
 
 #ifdef __cplusplus
 
